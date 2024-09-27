@@ -39,7 +39,7 @@ const useWebSocket = (symbol, interval) => {
           });
         };
 
-        // On WebSocket error
+        // On WebSocket  error
         socket.onerror = (errorEvent) => {
           // Properly handle WebSocket errors
           console.error("WebSocket error:", errorEvent.message || errorEvent);
