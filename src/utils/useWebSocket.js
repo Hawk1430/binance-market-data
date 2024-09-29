@@ -57,7 +57,7 @@ const useWebSocket = (symbol, interval) => {
       } catch (error) {
         // Log if there's a connection issue
         console.error("Failed to create WebSocket connection:", error);
-        setError("WebSocket connection failed:  " + error.message);
+        setError("WebSocket connection failed: " + error.message);
       }
     };
 
